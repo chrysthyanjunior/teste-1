@@ -1,9 +1,9 @@
-<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3" image="forest-11.png">
   <agent
     id="fundo"
     color="white"
     x="400"
-    y="480"
+    y="500"
     font-size="70"
     image="forest-11.png" 
            width="100%" height="100%" />
