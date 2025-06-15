@@ -6,7 +6,12 @@
     x="center"
     y="center"
     font-size="70"
-  />
+  /><fable>
+  <config font-family="Arial" />
+  <page id="inicio">
+    <agent id="fundo" x="100" y="100" image="forest-11.png" width="100%" height="100%" />
+  </page>
+</fable>
 
   <agent
     id="next_page_text"
