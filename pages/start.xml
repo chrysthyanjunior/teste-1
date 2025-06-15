@@ -6,19 +6,18 @@
     x="center"
     y="center"
     font-size="70"
+    image="forest-11.png"
   />
   </page>
 </fable>
-  <config font-family="Amatic SC" />
-  <page id="inicio">
-    <agent id="fundo" x="100" y="100" image="forest-11.png" width="100%" height="100%" />
+  <config>
 
-  <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('middle')"
+ <agent
+   id="next_page_text"
+   text="Proxima Pagina" 
+   animation="bounce-in" 
+   y="480" 
+   x="640" 
+   on_click="goToPage('middle')" /
   />
 </page>
